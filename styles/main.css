@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* COMMONS */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #000;
+    font-family: Montserrat;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    margin-block-end: 0;
+}
+
+
+/* HEADER */
+
+.navbar > .container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.logo {
+    fill: #fff;
+    height: 2rem;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.navbar .form-control {
+    font-size: 1.25rem;
+}
+
+
+/* BODY */
+
+.list-group-item__products {}
+
+.products-link * {
+    color: #000;
+}
+
+.products-link p, .products-link time {
+    color: gray;
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+.products-img {
+    width: 100%;
+    max-width: 20rem;
+}
+
+
+/* FOOTER */
+
+footer .fab {
+    color: gray;
+    font-size: 2rem;
+}
+
